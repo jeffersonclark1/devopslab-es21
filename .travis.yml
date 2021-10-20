@@ -28,7 +28,7 @@ deploy:
 addons:
   sonarcloud:
     organization: jeffersonclark1_devopslab-es21
-    token: ${SONAR_TOKEN}
+    token: jeffersonclark1_devopslab-es21
 
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.                                                                                                                            
 script:                                                                                                                                                                                                  
