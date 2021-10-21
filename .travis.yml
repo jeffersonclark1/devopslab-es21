@@ -19,7 +19,7 @@ script:
 # Definir o Deploy no Heroku
 deploy:
   provider: heroku
-  api_key: 546a0c82-9b22-4332-a7a1-fd5c72ad0862
+  api_key: $HEROKU_API_KEY
   edge: true 
   app: devops-es21
   on:
